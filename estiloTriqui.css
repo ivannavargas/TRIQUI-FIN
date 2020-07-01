@@ -1,0 +1,25 @@
+body
+.casilla {
+    
+    width:100px;
+    height: 100px;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    background-color: beige;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    text-align: center;
+    justify-content: center;
+}
+
+.boton {
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    align-items: center;
+}
